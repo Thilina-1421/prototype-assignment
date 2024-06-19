@@ -1,0 +1,29 @@
+.light {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+}
+
+.bulb {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 160px;
+    height: 160px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px #fff, 0 0 60px 30px #fff;
+}
+
+.beam {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, transparent 50%, rgba(255,255,255,0.3) 80%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
